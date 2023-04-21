@@ -1,4 +1,4 @@
-# Default values for thechart.
+# Default values for my-helm-check.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -11,8 +11,8 @@ image:
   tag: ""
 
 imagePullSecrets: []
-nameOverride: "the-uw-app"
-fullnameOverride: "the-uw-chart"
+nameOverride: ""
+fullnameOverride: ""
 
 serviceAccount:
   # Specifies whether a service account should be created
