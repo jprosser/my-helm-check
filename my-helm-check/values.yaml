@@ -11,8 +11,8 @@ image:
   tag: ""
 
 imagePullSecrets: []
-nameOverride: ""
-fullnameOverride: ""
+nameOverride: "the-uw-app"
+fullnameOverride: "the-uw-chart"
 
 serviceAccount:
   # Specifies whether a service account should be created
